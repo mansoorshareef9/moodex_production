@@ -75,6 +75,15 @@ export const POLYGON_TOKENS: Token[] = [
   },
   {
     chainId: 137,
+    name: "Bonsai",
+    symbol: "BONSAI",
+    decimals: 18,
+    address: "0x3d2bd0e15829aa5c362a4144fdf4a1112fa29b5c",
+    logoURI:
+      "https://static.wixstatic.com/media/438dc1_38e52a83b45b468d9b541af158419d22~mv2.png"
+  },
+  {
+    chainId: 137,
     name: "USDC",
     symbol: "USDC",
     decimals: 6,
@@ -130,7 +139,7 @@ export const POLYGON_TOKENS_BY_SYMBOL: Record<string, Token> = {
     logoURI:
       "https://static.wixstatic.com/media/438dc1_9e52b8ac8ff841b988a602c152a2261a~mv2.jpeg"
   },
-  tryan: {
+  "tryan": {
     chainId: 137,
     name: "Tryan",
     symbol: "TRYAN",
@@ -147,6 +156,15 @@ export const POLYGON_TOKENS_BY_SYMBOL: Record<string, Token> = {
     address: "0x04b48c9707fe5091ee772d92941f745bc0ad2b8f",
     logoURI:
       "https://static.wixstatic.com/media/438dc1_80dfc634830a4ab5b40e21181e2fcac7~mv2.jpeg"
+  },
+  "bonsai":{
+    chainId: 137,
+    name: "Bonsai",
+    symbol: "BONSAI",
+    decimals: 18,
+    address: "0x3d2bd0e15829aa5c362a4144fdf4a1112fa29b5c",
+    logoURI:
+      "https://static.wixstatic.com/media/438dc1_38e52a83b45b468d9b541af158419d22~mv2.png"
   },
   "usdc": {
     chainId: 137,
@@ -222,6 +240,15 @@ export const POLYGON_TOKENS_BY_ADDRESS: Record<string, Token> = {
     address: "0x04b48c9707fe5091ee772d92941f745bc0ad2b8f",
     logoURI:
       "https://static.wixstatic.com/media/438dc1_80dfc634830a4ab5b40e21181e2fcac7~mv2.jpeg"
+  },
+  "0x3d2bd0e15829aa5c362a4144fdf4a1112fa29b5c":{
+    chainId: 137,
+    name: "Bonsai",
+    symbol: "BONSAI",
+    decimals: 18,
+    address: "0x3d2bd0e15829aa5c362a4144fdf4a1112fa29b5c",
+    logoURI:
+      "https://static.wixstatic.com/media/438dc1_38e52a83b45b468d9b541af158419d22~mv2.png"
   },
   "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359": {
     chainId: 137,
