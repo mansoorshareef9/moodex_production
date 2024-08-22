@@ -93,6 +93,15 @@ export const POLYGON_TOKENS: Token[] = [
   },
   {
     chainId: 137,
+    name: "Bunny Cat",
+    symbol: "LMEOW",
+    decimals: 18,
+    address: "0xd5c51f3e8bf1957e3b4ceef0b25ddf7a7ef7012c",
+    logoURI:
+      "https://static.wixstatic.com/media/438dc1_be53f7dd539c498cb29a3be85f5adcec~mv2.jpg"
+  },
+  {
+    chainId: 137,
     name: "USDC",
     symbol: "USDC",
     decimals: 6,
@@ -183,6 +192,15 @@ export const POLYGON_TOKENS_BY_SYMBOL: Record<string, Token> = {
     address: "0xb8751eaef59b5825b40fd4043a4a8dbb184cb96b",
     logoURI:
       "https://static.wixstatic.com/media/438dc1_cd8a5e1d61b04a6a9b0dd26e04e21631~mv2.jpeg"
+  },
+  "lmeow" : {
+    chainId: 137,
+    name: "Bunny Cat",
+    symbol: "LMEOW",
+    decimals: 18,
+    address: "0xd5c51f3e8bf1957e3b4ceef0b25ddf7a7ef7012c",
+    logoURI:
+      "https://static.wixstatic.com/media/438dc1_be53f7dd539c498cb29a3be85f5adcec~mv2.jpg"
   },
   "usdc": {
     chainId: 137,
@@ -275,6 +293,15 @@ export const POLYGON_TOKENS_BY_ADDRESS: Record<string, Token> = {
     decimals: 18,
     address: "0xb8751eaef59b5825b40fd4043a4a8dbb184cb96b",
     logoURI: "https://static.wixstatic.com/media/438dc1_cd8a5e1d61b04a6a9b0dd26e04e21631~mv2.jpeg"
+  },
+  "0xd5c51f3e8bf1957e3b4ceef0b25ddf7a7ef7012c" : {
+    chainId: 137,
+    name: "Bunny Cat",
+    symbol: "LMEOW",
+    decimals: 18,
+    address: "0xd5c51f3e8bf1957e3b4ceef0b25ddf7a7ef7012c",
+    logoURI:
+      "https://static.wixstatic.com/media/438dc1_be53f7dd539c498cb29a3be85f5adcec~mv2.jpg"
   },
   "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359": {
     chainId: 137,
