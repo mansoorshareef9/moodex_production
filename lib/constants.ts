@@ -57,6 +57,15 @@ export const POLYGON_TOKENS: Token[] = [
   },
   {
     chainId: 137,
+    name: "PAT",
+    symbol: "PAT",
+    decimals: 18,
+    address: "0xe1fa488cec250c4d7566a02a6b7f092196c81d11",
+    logoURI:
+      "https://static.wixstatic.com/media/438dc1_02272d12f0824b48ad81ffb15eff02f9~mv2.jpeg"
+  },
+  {
+    chainId: 137,
     name: "TRYAN",
     symbol: "TRYAN",
     decimals: 18,
@@ -156,6 +165,15 @@ export const POLYGON_TOKENS_BY_SYMBOL: Record<string, Token> = {
     address: "0x433cde5a82b5e0658da3543b47a375dffd126eb6",
     logoURI:
       "https://static.wixstatic.com/media/438dc1_9e52b8ac8ff841b988a602c152a2261a~mv2.jpeg"
+  },
+  "pat": {
+    chainId: 137,
+    name: "PAT",
+    symbol: "PAT",
+    decimals: 18,
+    address: "0xe1fa488cec250c4d7566a02a6b7f092196c81d11",
+    logoURI:
+      "https://static.wixstatic.com/media/438dc1_02272d12f0824b48ad81ffb15eff02f9~mv2.jpeg"
   },
   "tryan": {
     chainId: 137,
@@ -258,6 +276,15 @@ export const POLYGON_TOKENS_BY_ADDRESS: Record<string, Token> = {
     address: "0x433cde5a82b5e0658da3543b47a375dffd126eb6",
     logoURI:
       "https://static.wixstatic.com/media/438dc1_9e52b8ac8ff841b988a602c152a2261a~mv2.jpeg"
+  },
+  "0xe1fa488cec250c4d7566a02a6b7f092196c81d11": {
+    chainId: 137,
+    name: "PAT",
+    symbol: "PAT",
+    decimals: 18,
+    address: "0xe1fa488cec250c4d7566a02a6b7f092196c81d11",
+    logoURI:
+      "https://static.wixstatic.com/media/438dc1_02272d12f0824b48ad81ffb15eff02f9~mv2.jpeg"
   },
   "0x550f908e06d1da4ffee6b1fb63730f88ecc4d230": {
     chainId: 137,
